@@ -18,8 +18,15 @@ Due to healthcare data privacy constraints, all datasets used in this project ar
 - outcomes.csv
 - beds.csv
 
+## Progress Update
+✅ Step 2 Completed – PostgreSQL Database Setup
+
+All synthetic datasets have been successfully loaded into a PostgreSQL database.  
+The database now serves as the single source of truth for analytics and dashboard development.
+
+
 ## Upcoming Steps
-- Load datasets into PostgreSQL
+
 - Build FastAPI backend for ETL & KPIs
 - Develop Power BI / Apache Superset dashboard
 - Enable CSV / Excel / PDF exports

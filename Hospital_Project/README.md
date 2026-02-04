@@ -1,15 +1,14 @@
 # Hospital Resource Utilization & Patient Outcomes Dashboard
 
-## Project Status
-Step 1 Completed: Synthetic Dataset Generation
+## Current Progress
+✅ Step 1 Completed – Synthetic Dataset Generation
 
-## Description
-This project focuses on building an analytics dashboard for hospital operations to monitor patient flow, resource utilization, and outcomes across departments and branches.
+## Project Overview
+This project aims to build an interactive analytics dashboard for hospital operations teams to monitor and optimize resource utilization, patient flow, and outcomes across departments and branches.
 
-Due to healthcare data privacy constraints, a fully synthetic dataset has been generated to simulate real-world hospital operations.
+Due to healthcare data privacy constraints, all datasets used in this project are fully synthetic and generated using realistic hospital operational assumptions.
 
-## Dataset
-The following synthetic datasets have been created:
+## Available Datasets
 - patients.csv
 - admissions.csv
 - doctors.csv
@@ -19,9 +18,8 @@ The following synthetic datasets have been created:
 - outcomes.csv
 - beds.csv
 
-These datasets will be used in later steps for database loading, backend API creation, and BI dashboard development.
-
-## Next Steps
+## Upcoming Steps
 - Load datasets into PostgreSQL
-- Build FastAPI backend for KPIs
-- Create Power BI / Superset dashboards
+- Build FastAPI backend for ETL & KPIs
+- Develop Power BI / Apache Superset dashboard
+- Enable CSV / Excel / PDF exports

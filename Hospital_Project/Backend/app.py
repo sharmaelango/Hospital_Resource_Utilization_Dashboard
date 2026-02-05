@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .db import get_connection
+from db import get_connection
 
 
 app = FastAPI(title="Hospital Analytics API")
@@ -82,3 +82,4 @@ def cost_per_discharge():
     conn.close()
 
     return [{"department": d, "avg_cost": c} for d, c in data]
+

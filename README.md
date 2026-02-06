@@ -119,11 +119,13 @@ cd Hospital_Resource_Utilization_Dashboard
 ```
 ### 2. Set Up the Database
 
-Install PostgreSQL
+-Install PostgreSQL
 
-Create a database (e.g., hospital_db)
+-Create a database (for example: hospital_db)
 
-Import the CSV files from the datasets/ folder into PostgreSQL
+-Import the synthetic CSV datasets from the datasets/ folder into PostgreSQL tables
+
+-These datasets simulate real hospital operational and clinical data.
 
 ### 3. Run the Backend Locally
 
@@ -132,40 +134,21 @@ cd Hospital_Project/Backend
 pip install -r requirements.txt
 uvicorn app:app --reload
 ```
-API will be available at:
+The FastAPI service will be available at:
 ```
 http://127.0.0.1:8000
 ```
 
 ### 4. Open the Dashboard
 
-Open Dashboard/Hospital_Dashboard.pbix using Power BI Desktop
+-Open Dashboard/Hospital_Dashboard.pbix using Power BI Desktop
 
-Connect to the PostgreSQL database or backend API as configured
+-Connect the dashboard to the PostgreSQL database or backend API as configured
+
+-Interact with the dashboard pages and filters to explore insights
 
 
 ## Demo Video
+A full walkthrough of the project, including architecture, dashboard pages, and live backend deployment, is available here:
+### [🔗 Demo Video Youtube Link](https://youtu.be/ECnB-DNoF7U)
 
-A complete walkthrough video demonstrating:
-
-- Problem context
-
-- Solution architecture
-
-- Dashboard functionality
-
-- Key insights
-
-- Live backend deployment
-
-will be added here before final submission.
-
-
-with your **actual Render URL**
-
-2️⃣ Commit and push:
-```
-git add README.md
-git commit -m "Add complete project documentation"
-git push origin main
-```

@@ -14,7 +14,7 @@ The solution follows a modular analytics architecture that simulates a real-worl
 
 **Architecture Flow:**
 
-Synthetic Hospital Data → PostgreSQL Database → FastAPI Backend → Power BI Dashboard
+  <img width="127" height="585" alt="Solution_Architecture drawio" src="https://github.com/user-attachments/assets/c533c983-b191-439b-845c-49086466dc69" />
 
 - Synthetic datasets are generated to simulate hospital operations data such as patients, admissions, beds, billing, doctors, and outcomes.
 - PostgreSQL acts as the centralized relational database.
